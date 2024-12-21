@@ -1,0 +1,30 @@
+[
+    {
+        "action": "ls",
+        "result": "virtual_fs"
+    },
+    {
+        "action": "cd virtual_fs",
+        "result": "Changed directory to virtual_root\\virtual_fs"
+    },
+    {
+        "action": "ls",
+        "result": "123.txt"
+    },
+    {
+        "action": "cd virtual_root",
+        "result": "virtual_root is not a directory"
+    },
+    {
+        "action": "ls",
+        "result": "123.txt"
+    },
+    {
+        "action": "cd root",
+        "result": "root is not a directory"
+    },
+    {
+        "action": "exit",
+        "result": "Shell exited"
+    }
+]
